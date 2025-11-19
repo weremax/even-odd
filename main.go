@@ -11,9 +11,7 @@ func main() {
 	for _, num := range nums {
 		if num%2 == 0 {
 			fmt.Println(strconv.Itoa(num) + " is Even!")
-		}
-
-		if num%2 != 0 {
+		} else {
 			fmt.Println(strconv.Itoa(num) + " is Odd!")
 		}
 	}
